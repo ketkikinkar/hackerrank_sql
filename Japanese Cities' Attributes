@@ -16,6 +16,5 @@ Given a City table, whose fields are described as
 you have to print all the details of all the cities of Japan. The CountryCode for Japan is "JPN".
 */
 
-SELECT *
-FROM CITY
+SELECT * FROM CITY
 WHERE COUNTRYCODE = "JPN";
