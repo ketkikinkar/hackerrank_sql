@@ -36,7 +36,6 @@ Country
 | Capital        | int(11)     |
 | Code2          | char(2)     |
 +----------------+-------------+
-
 */
 
 SELECT COUNTRY.CONTINENT, FLOOR(AVG(CITY.POPULATION))
